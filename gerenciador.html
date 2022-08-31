@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Gerenciador de Tarefas</title>
+</head>
+<body>
+    <!---->
+    <nav class="left"></nav>
+
+    <main>
+
+        <section class="menu">
+            <h1>GERENCIADOR DE TAREFAS</h1>
+            <input placeholder="Título" class="novoTitulo" required>
+            <input type="url" placeholder="Link" class="novoLink">
+            <textarea rows="6" placeholder="Descrição" class="novaDescricao"></textarea>
+            <button class="add" onclick="addTarefa();">+</button>
+        </section>
+
+        <!--COMO É UMA TAREFA?-->
+        <!-- <section class="tarefa" id="0">
+            <button>x</button>
+            <div class="titulo">
+                <input type="checkbox">
+                <h1>tomar banho dentro do chuveiro</h1>
+            </div>
+            <div class="link">
+                <a href="https://www.youtube.com" target="_blank">Link</a>
+            </div>
+            <div class="descricao">
+                <h2>Descrição</h2>
+            </div>
+        </section> -->
+    
+    </main>
+
+    <nav class="right"></nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
